@@ -1,0 +1,1 @@
+import _ from"lodash";function component(){const n=document.createElement("div");return n.innerHTML=_.join(["Hello","webpack"]," "),n}document.body.appendChild(component());
